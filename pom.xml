@@ -54,4 +54,18 @@
 		<name>JointEffort IT Services</name>
 		<url>http://www.jointeffort.nl</url>
 	</organization>
+	<scm>
+		<url>scm:git:git@github.com:JointEffort/ddd-events.git</url>
+		<connection>scm:git:git@github.com:JointEffort/ddd-events.git</connection>
+		<developerConnection>scm:git:git@github.com:JointEffort/ddd-events.git</developerConnection>
+	</scm>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.5</version>
+			</plugin>
+		</plugins>
+	</build>
 </project>
