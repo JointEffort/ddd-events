@@ -3,7 +3,7 @@
 
 	<groupId>nl.jointeffort</groupId>
 	<artifactId>ddd-events</artifactId>
-	<version>1.1</version>
+	<version>1.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>ddd-events</name>
@@ -57,7 +57,7 @@
 		<url>scm:git:git@github.com:JointEffort/ddd-events.git</url>
 		<connection>scm:git:git@github.com:JointEffort/ddd-events.git</connection>
 		<developerConnection>scm:git:git@github.com:JointEffort/ddd-events.git</developerConnection>
-		<tag>ddd-events-1.1</tag>
+		<tag>HEAD</tag>
 	</scm>
 	<build>
 		<plugins>
