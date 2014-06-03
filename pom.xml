@@ -4,7 +4,7 @@
 
 	<groupId>nl.jointeffort</groupId>
 	<artifactId>ddd-events</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>ddd-events</name>
@@ -58,6 +58,7 @@
 		<url>scm:git:git@github.com:JointEffort/ddd-events.git</url>
 		<connection>scm:git:git@github.com:JointEffort/ddd-events.git</connection>
 		<developerConnection>scm:git:git@github.com:JointEffort/ddd-events.git</developerConnection>
+		<tag>HEAD</tag>
 	</scm>
 	<build>
 		<plugins>
@@ -67,5 +68,19 @@
 				<version>2.5</version>
 			</plugin>
 		</plugins>
+		<extensions>
+			<!-- Enabling the use of FTP -->
+			<extension>
+				<groupId>org.apache.maven.wagon</groupId>
+				<artifactId>wagon-ftp</artifactId>
+				<version>2.6</version>
+			</extension>
+		</extensions>
 	</build>
+	<distributionManagement>
+		<repository>
+			<id>jointeffort-repo</id>
+			<url>ftp://ftp.jointeffort.nl/mvnrepo</url>
+		</repository>
+	</distributionManagement>
 </project>
